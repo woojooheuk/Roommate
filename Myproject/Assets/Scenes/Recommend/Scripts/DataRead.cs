@@ -9,7 +9,7 @@ public class DataRead : MonoBehaviour
     private DatabaseReference databaseReference;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task =>
         {
